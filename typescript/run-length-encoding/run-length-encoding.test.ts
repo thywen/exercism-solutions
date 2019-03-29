@@ -65,7 +65,7 @@ describe('run-length decode a string', () => {
 })
 
 describe('encode and then decode', () => {
-    it('encode followed by decode gives original string', () => {
+    xit('encode followed by decode gives original string', () => {
         expect(RunLengthEncoding.decode(RunLengthEncoding.encode('zzz ZZ  zZ'))).toEqual('zzz ZZ  zZ')
     })
 })
